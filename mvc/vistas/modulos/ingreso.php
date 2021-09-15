@@ -1,10 +1,9 @@
-<nav>
-	<ul>
-		
-		<li><a href="index.html">Ingresar</a></li>
-		<li><a href="registrar.html">Registrar</a></li>
-		<li><a href="empleados.html">Empleados</a></li>
-		<li><a href="salir.html">Salir</a></li>
+<br>
+<h1>Ingresar</h1>
 
-	</ul>
-</nav>
+<form method="POST" action="">
+	<input type="text" placeholder="Usuario" name="usuario" required>
+	<input type="password" placeholder="Contraseña" name="clave" required>
+	<input type="submit" value="Ingresar">
+
+</form>

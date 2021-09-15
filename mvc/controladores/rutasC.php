@@ -1,7 +1,7 @@
 <?php 
 class RutasControlador {
     public function Plantilla(){
-        include "vistas/plantilla.php";
+        include "./vistas/plantilla.php";
     }
     public function Rutas(){
         if(isset($_GET["ruta"])){

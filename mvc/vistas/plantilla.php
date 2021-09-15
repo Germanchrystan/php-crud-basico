@@ -11,7 +11,7 @@
 <body>
 
 <?php
-    include "modulos/menu.php";
+    include "./vistas/modulos/menu.php";
 ?>
 
 
