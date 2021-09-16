@@ -29,17 +29,10 @@ if(!$_SESSION["Ingreso"]){
 		</thead>
 
 		<tbody>
-			
-			<tr>
-				<td>Alejandro</td>
-				<td>Petrelli</td>
-				<td>ale@hotmail.com</td>
-				<td>Programador PHP</td>
-				<td>$ 8.000</td>
-				<td><button>Editar</button></td>
-				<td><button>Borrar</button></td>
-			</tr>
-
+			<?php 
+				$mostrar = new EmpleadosC();
+				$mostrar -> MostrarEmpleadosC("empleados");
+			?>
 		</tbody>
 
 	</table>
